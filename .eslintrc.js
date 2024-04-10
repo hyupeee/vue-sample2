@@ -7,7 +7,6 @@ module.exports = {
     'plugin:vue/essential',
     'eslint:recommended',
     '@vue/typescript/recommended',
-    '@vue/prettier/@typescript-eslint',
   ],
   parserOptions: {
     ecmaVersion: 2020,
@@ -17,7 +16,6 @@ module.exports = {
   },
   rules: {
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argIgnorePattern: '^__', }, ],
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
